@@ -1,10 +1,14 @@
 package com.nit.main;
 
-/**
- * Hello world!
- */
 public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!");
-    }
+	public int sum(int x, int y) {
+		return x + y;
+	}
+
+	public static void main(String[] args) {
+		App app = new App();
+		int sum1 = app.sum(100, 200);
+		// System.out.println("sum of value:"+sum1);
+		System.out.println("sum of value:" + app.sum(100, 200));
+	}
 }
