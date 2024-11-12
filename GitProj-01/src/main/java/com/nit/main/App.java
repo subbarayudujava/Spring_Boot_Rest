@@ -9,6 +9,6 @@ public class App {
 		App app = new App();
 		int sum1 = app.sum(100, 200);
 		// System.out.println("sum of value:"+sum1);
-		System.out.println("sum Amount value:" + app.sum(100, 200));
+		System.out.println("sum Amount33 value:" + app.sum(100, 200));
 	}
 }
