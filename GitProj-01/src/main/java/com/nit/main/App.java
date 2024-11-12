@@ -10,5 +10,6 @@ public class App {
 		int sum1 = app.sum(100, 200);
 		 System.out.println("sum of22 value:"+sum1);
 		//System.out.println("sum result value:" + app.sum(100, 200));
+		// System.out.println("sum of value:"+sum1);
 	}
 }
